@@ -1,0 +1,19 @@
+6 A,B,C,D,E,F
+  0,1,1,0,1,0
+  1,0,1,0,0,1
+  1,1,0,1,0,0
+  0,0,1,0,1,1
+  1,0,0,1,0,1
+  0,1,0,1,1,0
+------
+/*
+  El formato para escribir la tabla de adyacencia es
+  Primera fila:
+    [No de nodos][espacio][Nombre del nodo][coma]...[Nombre del nodo][coma]
+  Segunda fila en adelante:
+    [Nombre del nodo][espacio][valor][coma]...[valor][coma]
+   valor:
+     - 0 en caso de que no haya una arista
+     - 1 en caso de que haya una arista
+  Al finalizar la tabla de adyacencia se escribirá una línea.
+*/
